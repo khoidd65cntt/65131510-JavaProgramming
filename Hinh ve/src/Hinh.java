@@ -4,6 +4,5 @@ public class Hinh {
         System.out.println("  ***  ");
         System.out.println(" ***** ");
         System.out.println("*******");
-    
     }
 }
