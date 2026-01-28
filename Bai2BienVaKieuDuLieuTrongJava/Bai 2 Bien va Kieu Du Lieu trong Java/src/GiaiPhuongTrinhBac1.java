@@ -1,13 +1,7 @@
-import java.util.Scanner;
 public class GiaiPhuongTrinhBac1 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Nhập hệ số a: ");
-        double a = sc.nextDouble();
-
-        System.out.print("Nhập hệ số b: ");
-        double b = sc.nextDouble();
+        double a = 2.0;
+        double b = -4.0;
 
         if (a == 0) {
             if (b == 0) {
@@ -19,7 +13,5 @@ public class GiaiPhuongTrinhBac1 {
             double x = -b / a;
             System.out.println("Phương trình có nghiệm x = " + x);
         }
-
-        sc.close();
     }
 }
